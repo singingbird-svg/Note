@@ -5,7 +5,7 @@ import { getDirname, path } from "@vuepress/utils";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/mydocs/",
+  base: "/Note/",
 
   lang: "zh-CN",
   title: "文档演示",

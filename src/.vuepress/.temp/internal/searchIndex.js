@@ -254,35 +254,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Baz",
-    "headers": [],
-    "path": "/guide/bar/baz.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bar 功能",
-    "headers": [
-      {
-        "level": 2,
-        "title": "介绍",
-        "slug": "介绍",
-        "link": "#介绍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "详情",
-        "slug": "详情",
-        "link": "#详情",
-        "children": []
-      }
-    ],
-    "path": "/guide/bar/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Ray",
     "headers": [],
     "path": "/guide/foo/ray.html",
@@ -312,9 +283,45 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Baz",
+    "headers": [],
+    "path": "/guide/bar/baz.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bar 功能",
+    "headers": [
+      {
+        "level": 2,
+        "title": "介绍",
+        "slug": "介绍",
+        "link": "#介绍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "详情",
+        "slug": "详情",
+        "link": "#详情",
+        "children": []
+      }
+    ],
+    "path": "/guide/bar/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "书籍资源",
     "headers": [],
     "path": "/resources/books/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "影音资源",
+    "headers": [],
+    "path": "/resources/videos/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -365,49 +372,6 @@ export const searchIndex = [
       }
     ],
     "path": "/basic_knowledge/concept/gap/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "影音资源",
-    "headers": [],
-    "path": "/resources/videos/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "单次最佳求解器",
-    "headers": [
-      {
-        "level": 2,
-        "title": "英文",
-        "slug": "英文",
-        "link": "#英文",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "英文释义",
-        "slug": "英文释义",
-        "link": "#英文释义",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "中文释义",
-        "slug": "中文释义",
-        "link": "#中文释义",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "来源",
-        "slug": "来源",
-        "link": "#来源",
-        "children": []
-      }
-    ],
-    "path": "/basic_knowledge/concept/SBS/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -480,6 +444,42 @@ export const searchIndex = [
       }
     ],
     "path": "/basic_knowledge/concept/meta_h/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "单次最佳求解器",
+    "headers": [
+      {
+        "level": 2,
+        "title": "英文",
+        "slug": "英文",
+        "link": "#英文",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "英文释义",
+        "slug": "英文释义",
+        "link": "#英文释义",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "中文释义",
+        "slug": "中文释义",
+        "link": "#中文释义",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "来源",
+        "slug": "来源",
+        "link": "#来源",
+        "children": []
+      }
+    ],
+    "path": "/basic_knowledge/concept/SBS/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -636,16 +636,3 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}
