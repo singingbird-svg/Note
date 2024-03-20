@@ -254,35 +254,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Ray",
-    "headers": [],
-    "path": "/guide/foo/ray.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Foo 功能",
-    "headers": [
-      {
-        "level": 2,
-        "title": "介绍",
-        "slug": "介绍",
-        "link": "#介绍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "详情",
-        "slug": "详情",
-        "link": "#详情",
-        "children": []
-      }
-    ],
-    "path": "/guide/foo/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Baz",
     "headers": [],
     "path": "/guide/bar/baz.html",
@@ -308,6 +279,35 @@ export const searchIndex = [
       }
     ],
     "path": "/guide/bar/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Ray",
+    "headers": [],
+    "path": "/guide/foo/ray.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Foo 功能",
+    "headers": [
+      {
+        "level": 2,
+        "title": "介绍",
+        "slug": "介绍",
+        "link": "#介绍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "详情",
+        "slug": "详情",
+        "link": "#详情",
+        "children": []
+      }
+    ],
+    "path": "/guide/foo/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -372,6 +372,42 @@ export const searchIndex = [
       }
     ],
     "path": "/basic_knowledge/concept/gap/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "虚拟最佳求解器",
+    "headers": [
+      {
+        "level": 2,
+        "title": "英文",
+        "slug": "英文",
+        "link": "#英文",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "英文释义",
+        "slug": "英文释义",
+        "link": "#英文释义",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "中文释义",
+        "slug": "中文释义",
+        "link": "#中文释义",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "来源",
+        "slug": "来源",
+        "link": "#来源",
+        "children": []
+      }
+    ],
+    "path": "/basic_knowledge/concept/VBS/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -484,42 +520,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "虚拟最佳求解器",
-    "headers": [
-      {
-        "level": 2,
-        "title": "英文",
-        "slug": "英文",
-        "link": "#英文",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "英文释义",
-        "slug": "英文释义",
-        "link": "#英文释义",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "中文释义",
-        "slug": "中文释义",
-        "link": "#中文释义",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "来源",
-        "slug": "来源",
-        "link": "#来源",
-        "children": []
-      }
-    ],
-    "path": "/basic_knowledge/concept/VBS/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "智能算法整理",
     "headers": [
       {
@@ -547,6 +547,57 @@ export const searchIndex = [
             "title": "积木块假设",
             "slug": "积木块假设",
             "link": "#积木块假设",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "遗传算法特点",
+        "slug": "遗传算法特点",
+        "link": "#遗传算法特点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "遗传算法主要参数",
+        "slug": "遗传算法主要参数",
+        "link": "#遗传算法主要参数",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "遗传运算流程",
+        "slug": "遗传运算流程",
+        "link": "#遗传运算流程",
+        "children": [
+          {
+            "level": 3,
+            "title": "标准遗传算法",
+            "slug": "标准遗传算法",
+            "link": "#标准遗传算法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "遗传算法的改进方向",
+            "slug": "遗传算法的改进方向",
+            "link": "#遗传算法的改进方向",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "遗传算法的代码",
+        "slug": "遗传算法的代码",
+        "link": "#遗传算法的代码",
+        "children": [
+          {
+            "level": 3,
+            "title": "求解函数的极值",
+            "slug": "求解函数的极值",
+            "link": "#求解函数的极值",
             "children": []
           }
         ]
