@@ -13,6 +13,8 @@ actions:
     link: /codenotes/
   - text: 【基础知识】
     link: /basic_knowledge/
+  - text: 【课外杂学】
+    link: /others/
   - text: 【论文整理】
     link: /paper/
 features:

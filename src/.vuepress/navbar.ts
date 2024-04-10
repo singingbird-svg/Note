@@ -27,5 +27,6 @@ export const zhNavbar = navbar([
       },
     ],
   },
+  { text: "课外杂学", icon: "note", link: "/others/" },
 ]);
 

@@ -48,4 +48,14 @@ export const zhSidebar = sidebar({
       link: "/paper/AAD/",
     },
   ],
+  
+  // 课外杂学的侧边栏
+  "/others/": [
+    {
+      text: "网络安全",
+      icon: "guide",
+      collapsible: true,
+      link: "/others/websafe/",
+    },
+  ],
 });

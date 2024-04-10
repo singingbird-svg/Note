@@ -1,57 +1,5 @@
 export const searchIndex = [
   {
-    "title": "基础知识",
-    "headers": [],
-    "path": "/basic_knowledge/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "代码存储",
-    "headers": [
-      {
-        "level": 2,
-        "title": "无人机比赛",
-        "slug": "无人机比赛",
-        "link": "#无人机比赛",
-        "children": []
-      }
-    ],
-    "path": "/codenotes/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "指南",
-    "headers": [
-      {
-        "level": 2,
-        "title": "功能亮点",
-        "slug": "功能亮点",
-        "link": "#功能亮点",
-        "children": [
-          {
-            "level": 3,
-            "title": "Bar",
-            "slug": "bar",
-            "link": "#bar",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Foo",
-            "slug": "foo",
-            "link": "#foo",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/guide/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "布局与功能禁用",
     "headers": [],
     "path": "/demo/disable.html",
@@ -167,6 +115,65 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "基础知识",
+    "headers": [],
+    "path": "/basic_knowledge/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "指南",
+    "headers": [
+      {
+        "level": 2,
+        "title": "功能亮点",
+        "slug": "功能亮点",
+        "link": "#功能亮点",
+        "children": [
+          {
+            "level": 3,
+            "title": "Bar",
+            "slug": "bar",
+            "link": "#bar",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Foo",
+            "slug": "foo",
+            "link": "#foo",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/guide/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "代码存储",
+    "headers": [
+      {
+        "level": 2,
+        "title": "无人机比赛",
+        "slug": "无人机比赛",
+        "link": "#无人机比赛",
+        "children": []
+      }
+    ],
+    "path": "/codenotes/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "课外杂学",
+    "headers": [],
+    "path": "/others/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "资源目录页",
     "headers": [],
     "path": "/resources/",
@@ -192,6 +199,35 @@ export const searchIndex = [
     "title": "智能算法整理",
     "headers": [],
     "path": "/basic_knowledge/smart/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Baz",
+    "headers": [],
+    "path": "/guide/bar/baz.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bar 功能",
+    "headers": [
+      {
+        "level": 2,
+        "title": "介绍",
+        "slug": "介绍",
+        "link": "#介绍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "详情",
+        "slug": "详情",
+        "link": "#详情",
+        "children": []
+      }
+    ],
+    "path": "/guide/bar/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -254,35 +290,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Baz",
-    "headers": [],
-    "path": "/guide/bar/baz.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bar 功能",
-    "headers": [
-      {
-        "level": 2,
-        "title": "介绍",
-        "slug": "介绍",
-        "link": "#介绍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "详情",
-        "slug": "详情",
-        "link": "#详情",
-        "children": []
-      }
-    ],
-    "path": "/guide/bar/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Ray",
     "headers": [],
     "path": "/guide/foo/ray.html",
@@ -312,6 +319,21 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "智能算法整理",
+    "headers": [
+      {
+        "level": 2,
+        "title": "渗透测试",
+        "slug": "渗透测试",
+        "link": "#渗透测试",
+        "children": []
+      }
+    ],
+    "path": "/others/websafe/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "书籍资源",
     "headers": [],
     "path": "/resources/books/",
@@ -321,14 +343,14 @@ export const searchIndex = [
   {
     "title": "影音资源",
     "headers": [],
-    "path": "/resources/videos/",
+    "path": "/resources/papers/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "影音资源",
     "headers": [],
-    "path": "/resources/papers/",
+    "path": "/resources/videos/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -376,42 +398,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "虚拟最佳求解器",
-    "headers": [
-      {
-        "level": 2,
-        "title": "英文",
-        "slug": "英文",
-        "link": "#英文",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "英文释义",
-        "slug": "英文释义",
-        "link": "#英文释义",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "中文释义",
-        "slug": "中文释义",
-        "link": "#中文释义",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "来源",
-        "slug": "来源",
-        "link": "#来源",
-        "children": []
-      }
-    ],
-    "path": "/basic_knowledge/concept/VBS/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "每实例算法选择问题",
     "headers": [
       {
@@ -455,35 +441,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "元启发式",
-    "headers": [
-      {
-        "level": 2,
-        "title": "英文",
-        "slug": "英文",
-        "link": "#英文",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "英文释义",
-        "slug": "英文释义",
-        "link": "#英文释义",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "中文释义",
-        "slug": "中文释义",
-        "link": "#中文释义",
-        "children": []
-      }
-    ],
-    "path": "/basic_knowledge/concept/meta_h/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "单次最佳求解器",
     "headers": [
       {
@@ -516,6 +473,151 @@ export const searchIndex = [
       }
     ],
     "path": "/basic_knowledge/concept/SBS/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "元启发式",
+    "headers": [
+      {
+        "level": 2,
+        "title": "英文",
+        "slug": "英文",
+        "link": "#英文",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "英文释义",
+        "slug": "英文释义",
+        "link": "#英文释义",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "中文释义",
+        "slug": "中文释义",
+        "link": "#中文释义",
+        "children": []
+      }
+    ],
+    "path": "/basic_knowledge/concept/meta_h/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "虚拟最佳求解器",
+    "headers": [
+      {
+        "level": 2,
+        "title": "英文",
+        "slug": "英文",
+        "link": "#英文",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "英文释义",
+        "slug": "英文释义",
+        "link": "#英文释义",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "中文释义",
+        "slug": "中文释义",
+        "link": "#中文释义",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "来源",
+        "slug": "来源",
+        "link": "#来源",
+        "children": []
+      }
+    ],
+    "path": "/basic_knowledge/concept/VBS/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "信息收集",
+    "headers": [
+      {
+        "level": 2,
+        "title": "信息收集包含内容",
+        "slug": "信息收集包含内容",
+        "link": "#信息收集包含内容",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "域名信息",
+        "slug": "域名信息",
+        "link": "#域名信息",
+        "children": [
+          {
+            "level": 3,
+            "title": "域名是什么",
+            "slug": "域名是什么",
+            "link": "#域名是什么",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "域名的分类",
+            "slug": "域名的分类",
+            "link": "#域名的分类",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "域名与IP",
+            "slug": "域名与ip",
+            "link": "#域名与ip",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "查询域名",
+            "slug": "查询域名",
+            "link": "#查询域名",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "子域名",
+            "slug": "子域名",
+            "link": "#子域名",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "域名解析信息",
+            "slug": "域名解析信息",
+            "link": "#域名解析信息",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "IP信息获得",
+        "slug": "ip信息获得",
+        "link": "#ip信息获得",
+        "children": [
+          {
+            "level": 3,
+            "title": "DNS服务器的类型",
+            "slug": "dns服务器的类型",
+            "link": "#dns服务器的类型",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/others/websafe/info_collect/info.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -673,6 +775,13 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Info Collect",
+    "headers": [],
+    "path": "/others/websafe/info_collect/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "GA",
     "headers": [],
     "path": "/basic_knowledge/smart/GA/",
@@ -687,3 +796,16 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}
