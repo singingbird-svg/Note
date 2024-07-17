@@ -20,3 +20,9 @@ article: false
 timeline: false
 ---
 [遗传算法](./GA/ga.md)
+
+[差分进化算法](./DE/de.md)
+
+[免疫进化算法](./IA/ia.md)
+
+[蚁群算法](./ACO/aco.md)

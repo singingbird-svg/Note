@@ -24,6 +24,8 @@ timeline: false
 
 [元启发式(metaheuristics)](./meta_h/README.md)
 
+[元优化问题](./meta_o/README.md)
+
 [每实例算法选择问题（per-instance algorithm selection problem) ](./per_instance/README.md)
 
 [虚拟最佳求解器(virtual best solver (VBS) / oracle selector)](./VBS/README.md)
@@ -31,3 +33,21 @@ timeline: false
 [单次最佳求解器（single best solver）](./SBS/README.md)
 
 [VBS-SBS 间隙(VBS-SBS gap)](./gap/README.md)
+
+[Bottom-up 方法](./bottom_up/README.md)
+
+[Top-down 方法](./Top-down/README.md)
+
+[一般组合优化问题（GCOP)](./GCOP/README.md)
+
+[算法自动配置](./AACON/README.md)
+
+[算法自动选择](./AAS/README.md)
+
+[算法自动组合](./AAC/README.md)
+
+[正交阵列(Orthogonal Array)](./orthogonal_array/README.md)
+
+[多项式时间](./多项式时间/README.md)
+
+[NP](./NP/README.md)

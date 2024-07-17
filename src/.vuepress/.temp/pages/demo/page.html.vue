@@ -17,13 +17,12 @@
 </ul>
 <h2 id="页面内容" tabindex="-1"><a class="header-anchor" href="#页面内容"><span>页面内容</span></a></h2>
 <p>你可以自由在这里书写你的 Markdown。</p>
-<div class="hint-container tip">
-<p class="hint-container-title">图片引入</p>
+<p>::: tip 图片引入</p>
 <ul>
 <li>你可以将图片和 Markdown 文件放置在一起使用相对路径进行引用。</li>
 <li>对于 <code v-pre>.vuepress/public</code> 文件夹的图片，请使用绝对链接 <code v-pre>/</code> 进行引用。</li>
 </ul>
-</div>
+<p>:::</p>
 <h2 id="组件" tabindex="-1"><a class="header-anchor" href="#组件"><span>组件</span></a></h2>
 <p>每个 Markdown 页面都会被转换为一个 Vue 组件，这意味着你可以在 Markdown 中使用 Vue 语法：</p>
 <p>{{ 1 + 1 }}</p>
@@ -41,7 +40,12 @@
 </li>
 <li>
 <p>一个卡片:</p>
-<VPCard v-bind='{"title":"Mr.Hope","desc":"Where there is light, there is hope","logo":"https://mister-hope.com/logo.svg","link":"https://mister-hope.com","background":"rgba(253, 230, 138, 0.15)"}' /></li>
+<div class="language-component line-numbers-mode" data-ext="component" data-title="component"><pre v-pre class="language-component"><code>title: Mr.Hope
+desc: Where there is light, there is hope
+logo: https://mister-hope.com/logo.svg
+link: https://mister-hope.com
+background: rgba(253, 230, 138, 0.15)
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
 </ul>
 </div></template>
 

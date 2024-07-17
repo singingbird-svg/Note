@@ -70,7 +70,7 @@
 <h4 id="新顶级域名" tabindex="-1"><a class="header-anchor" href="#新顶级域名"><span>新顶级域名</span></a></h4>
 <p>biz, info, name, pro,aero...</p>
 <h3 id="域名与ip" tabindex="-1"><a class="header-anchor" href="#域名与ip"><span>域名与IP</span></a></h3>
-<figure><img src="@source/others/websafe/info_collect/image.png" alt="alt text" tabindex="0" loading="lazy"><figcaption>alt text</figcaption></figure>
+<p><img src="@source/others/websafe/info_collect/image.png" alt="alt text"></p>
 <h3 id="查询域名" tabindex="-1"><a class="header-anchor" href="#查询域名"><span>查询域名</span></a></h3>
 <h4 id="域名联系人信息" tabindex="-1"><a class="header-anchor" href="#域名联系人信息"><span>域名联系人信息</span></a></h4>
 <p>所属人、邮箱、电话、地址...</p>
@@ -142,8 +142,8 @@
 </ul>
 <h3 id="域名解析信息" tabindex="-1"><a class="header-anchor" href="#域名解析信息"><span>域名解析信息</span></a></h3>
 <p>DNS --域名解析服务</p>
-<figure><img src="https://img-blog.csdnimg.cn/direct/2e041629e90340f88aabc7ec59e11276.png" alt="在这里插入图片描述" tabindex="0" loading="lazy"><figcaption>在这里插入图片描述</figcaption></figure>
-<figure><img src="https://img-blog.csdnimg.cn/direct/5c5c1838485b431598edb47219d7d0f9.png" alt="在这里插入图片描述" tabindex="0" loading="lazy"><figcaption>在这里插入图片描述</figcaption></figure>
+<p><img src="https://img-blog.csdnimg.cn/direct/2e041629e90340f88aabc7ec59e11276.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img-blog.csdnimg.cn/direct/5c5c1838485b431598edb47219d7d0f9.png" alt="在这里插入图片描述"></p>
 <h4 id="查询方式" tabindex="-1"><a class="header-anchor" href="#查询方式"><span>查询方式</span></a></h4>
 <ul>
 <li>
@@ -171,7 +171,7 @@
 <li>
 <p><strong>类型</strong></p>
 <p>4种：本地、根、顶级、三级</p>
-<figure><img src="@source/others/websafe/info_collect/image-1.png" alt="alt text" tabindex="0" loading="lazy"><figcaption>alt text</figcaption></figure>
+<p><img src="@source/others/websafe/info_collect/image-1.png" alt="alt text"></p>
 </li>
 </ul>
 <p>本地域名服务器：可以理解为缓存的服务器</p>

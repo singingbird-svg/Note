@@ -143,7 +143,7 @@
 </tbody>
 </table>
 <h2 id="遗传运算流程" tabindex="-1"><a class="header-anchor" href="#遗传运算流程"><span>遗传运算流程</span></a></h2>
-<figure><img src="@source/basic_knowledge/smart/GA/image-1.png" alt="alt text" tabindex="0" loading="lazy"><figcaption>alt text</figcaption></figure>
+<p><img src="@source/basic_knowledge/smart/GA/image-1.png" alt="alt text"></p>
 <h3 id="标准遗传算法" tabindex="-1"><a class="header-anchor" href="#标准遗传算法"><span>标准遗传算法</span></a></h3>
 <p>Standard Genetic Algorithm，SGA</p>
 <p>又称为经典遗传算法。</p>
@@ -159,7 +159,7 @@
 <h2 id="遗传算法的代码" tabindex="-1"><a class="header-anchor" href="#遗传算法的代码"><span>遗传算法的代码</span></a></h2>
 <p>详情可以参考《智能优化算法及其MATLAB实例（第2版）》p35(函数极值、旅行商、背包)</p>
 <h3 id="求解函数的极值" tabindex="-1"><a class="header-anchor" href="#求解函数的极值"><span>求解函数的极值</span></a></h3>
-<figure><img src="@source/basic_knowledge/smart/GA/image-2.png" alt="alt text" tabindex="0" loading="lazy"><figcaption>alt text</figcaption></figure>
+<p><img src="@source/basic_knowledge/smart/GA/image-2.png" alt="alt text"></p>
 <div class="language-m line-numbers-mode" data-ext="m" data-title="m"><pre v-pre class="language-m"><code>%函数求极值
 %%%f （ x ） =x+10sin （ 5x ）
 clc;

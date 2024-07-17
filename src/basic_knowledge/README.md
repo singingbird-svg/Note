@@ -22,9 +22,13 @@ timeline: false
 
 [基本概念搜索](./concept/README.md)
 
+[基本算例](./benchmark/README.md)
+
 [智能算法基础知识](./smart/README.md)
 
 [深度学习基础知识](./deeplearning/README.md)
 
 [强化学习基础知识](./rl/README.md)
+
+[Scheduling书本知识](./Scheduling/README.md)
 
